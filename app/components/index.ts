@@ -19,6 +19,7 @@ import InvoiceActions from "./invoice/InvoiceActions";
 import SingleItem from "./invoice/form/SingleItem";
 import Charges from "./invoice/form/Charges";
 import TemplateSelector from "./invoice/form/TemplateSelector";
+import VoiceInput from "./invoice/form/VoiceInput";
 
 // Form / Wizard
 import WizardNavigation from "./invoice/form/wizard/WizardNavigation";
@@ -111,6 +112,7 @@ export {
     SingleItem,
     Charges,
     TemplateSelector,
+    VoiceInput,
     WizardNavigation,
     WizardStep,
     WizardProgress,

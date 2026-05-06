@@ -89,5 +89,33 @@
     },
     "footer": {
         "developedBy": "开发人员"
+    },
+    "voiceInput": {
+        "voiceInput": "语音录入",
+        "tooltip": "使用语音识别快速录入商品明细",
+        "title": "语音录入商品明细",
+        "description": "点击录音按钮开始说话，系统将自动识别并解析商品信息。",
+        "notSupported": "您的浏览器不支持语音识别功能，请使用 Chrome 浏览器。",
+        "error": "语音识别出错",
+        "microphoneDenied": "请允许麦克风权限后重试",
+        "noMicrophone": "未检测到麦克风设备",
+        "networkError": "网络连接错误，请检查网络",
+        "initFailed": "语音识别初始化失败",
+        "startFailed": "无法启动语音识别，请重试",
+        "emptyText": "请先录入语音内容",
+        "noItemsParsed": "未能识别出商品信息，请重新录入",
+        "browserHint": "浏览器不支持语音识别",
+        "useChrome": "请使用 Chrome 浏览器以使用语音识别功能，或手动在下方输入文本进行解析。",
+        "manualInput": "手动输入文本",
+        "manualPlaceholder": "例如：苹果3个单价5元，笔记本电脑2台单价8000元",
+        "listening": "正在聆听...",
+        "transcript": "识别文本",
+        "clear": "清除",
+        "continueRecording": "继续录音",
+        "parse": "解析商品",
+        "parsedItems": "解析结果",
+        "item": "商品",
+        "cancel": "取消",
+        "confirm": "确认添加"
     }
 }
