@@ -19,7 +19,6 @@ import { BASE_URL, GOOGLE_SC_VERIFICATION, LOCALES } from "@/lib/variables";
 // Favicon
 import Favicon from "@/public/assets/favicon/favicon.ico";
 // Vercel Analytics
-import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 // Next Intl
 import { NextIntlClientProvider } from "next-intl";
@@ -101,8 +100,6 @@ export default async function LocaleLayout(props: {
                         {/* Toast component */}
                         <Toaster />
 
-                        {/* Vercel analytics */}
-                        <Analytics />
                     </Providers>
                 </NextIntlClientProvider>
             </body>
